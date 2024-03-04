@@ -18,5 +18,5 @@ $routes->group('admin', function ($routes) {
 // File: app/Config/Routes.php
 
 $routes->group('admin', ['namespace' => 'App\Controllers\Admin'], function ($routes) {
-    $routes->get('artikel', 'Artikel::index');
+    $routes->get('dashboard', 'Dashboard::index');
 });
